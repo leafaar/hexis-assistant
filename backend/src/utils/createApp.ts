@@ -21,7 +21,7 @@ export function createApp(): Express {
     //Enable sessions
     app.use(
         session({
-            secret: '864D16A1F101274241C298C2E20F3EB45BABBAA35CEAA73FAC332F0B1E5F1702',
+            secret: 'secretcats',
             resave: false,
             saveUninitialized: false,
             cookie: { maxAge: 60000 * 60 * 24 * 7 },
